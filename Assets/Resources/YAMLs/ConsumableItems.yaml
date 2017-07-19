@@ -1,0 +1,7 @@
+ConsumableItems:
+  - ItemID: 12
+    ItemName: Apple
+    ItemDescriptor: "It's an Apple. Forbidden fruit and all that."
+  - ItemID: 99
+    ItemName: Rocket Launcher
+    ItemDescriptor: "A Rocket Launcher. Will come useful, if words didn't help."

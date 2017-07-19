@@ -1,0 +1,13 @@
+EquippableItems:
+  - ItemID: 14
+    ItemName: Headband
+    Slot: HairSlot
+    ItemDescriptor: "It's a white, plain Headband. Nothing special about it."
+  - ItemID: 5
+    ItemName: Copper Bracelet
+    Slot: JewelryWristSlot
+    ItemDescriptor: "It's a Copper Bracelet. Simple, but actually quite stylish."
+  - ItemID: 4
+    ItemName: Leather Coat
+    Slot: ClothingTopOverSlot
+    ItemDescriptor: "A long Leather Coat. Shame it's not a cyberpunk game, eh?"
