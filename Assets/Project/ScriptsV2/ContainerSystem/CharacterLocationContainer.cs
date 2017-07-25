@@ -33,13 +33,28 @@ public class CharacterLocationContainer : ContainerBase
 		throw new NotImplementedException();
 	}
 
-	public override List<ContainerBase> GetSublocations()
+    public override List<ContainerBase> TryGetSubcontainers()
+    {
+        throw new NotImplementedException();
+    }
+
+    public override ContainerBase TryGetSubcontainer()
+    {
+        throw new NotImplementedException();
+    }
+
+    public override void CheckAvailableSlots()
 	{
 		throw new NotImplementedException();
 	}
 
-	public override void CheckAvailableSlots()
-	{
-		throw new NotImplementedException();
-	}
+    public override void Add(ContainerBase container)
+    {
+        throw new NotImplementedException();
+    }
+
+    public override void Remove(ContainerBase container)
+    {
+        throw new NotImplementedException();
+    }
 }

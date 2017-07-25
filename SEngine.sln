@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+# Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEngine.Plugins", "SEngine.Plugins.csproj", "{74FF95DC-9882-6D8B-7039-CAEAB0B7CA1E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEngine", "SEngine.csproj", "{7B6F7848-47ED-8D61-CA22-7AD8C4CAE840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEngine.Editor", "SEngine.Editor.csproj", "{9C5B40F4-C126-0CFC-F42B-90A0DD4769D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +21,10 @@ Global
 		{7B6F7848-47ED-8D61-CA22-7AD8C4CAE840}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B6F7848-47ED-8D61-CA22-7AD8C4CAE840}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B6F7848-47ED-8D61-CA22-7AD8C4CAE840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C5B40F4-C126-0CFC-F42B-90A0DD4769D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C5B40F4-C126-0CFC-F42B-90A0DD4769D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C5B40F4-C126-0CFC-F42B-90A0DD4769D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C5B40F4-C126-0CFC-F42B-90A0DD4769D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
