@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class ContainerBase : ScriptableObject
+public abstract class ContainerBase
 {
 	public abstract void TryInsertItem();
 

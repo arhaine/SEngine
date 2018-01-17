@@ -1,6 +1,6 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
+using NUnit.Framework;
 
 public class CharacterLocationContainer : ContainerBase
 {
@@ -23,6 +23,11 @@ public class CharacterLocationContainer : ContainerBase
 
 	}
 
+	public virtual List<CharacterLocationContainer> TryGetSublocations()
+	{
+		return Sublocations;
+	}
+
 	public override void TryInsertItem()
 	{
 		throw new NotImplementedException();
@@ -35,7 +40,7 @@ public class CharacterLocationContainer : ContainerBase
 
     public override List<ContainerBase> TryGetSubcontainers()
     {
-        throw new NotImplementedException();
+		throw new NotImplementedException();
     }
 
     public override ContainerBase TryGetSubcontainer()
